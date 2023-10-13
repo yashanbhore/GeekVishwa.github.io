@@ -88,19 +88,24 @@ export const products = [
 export const services = [
     {
         imgURL: devfolio,
-        label: "Free shipping",
-        subtext: "Enjoy seamless shopping with our complimentary shipping service."
+        label: "DEVFOLIO LOGO",
+        subtext: "Enjoy seamless shopping with our complimentary shipping service.",
+        url : "https://devfolio.co"
     },
     {
         imgURL: polygon,
-        label: "Secure Payment",
-        subtext: "Experience worry-free transactions with our secure payment options."
+        label: "POLYGON LOGO",
+        subtext: "Experience worry-free transactions with our secure payment options.",
+        url : "https://polygon.technology/"
     },
     
 ]
 export const replitServices = [
     {
         imgURL: replit,
+        label: "REPLIT LOGO",
+        url : "https://replit.com"
+
     },
     
 ]

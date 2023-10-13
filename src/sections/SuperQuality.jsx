@@ -25,21 +25,20 @@ function SuperQuality() {
           {/* <span className='text-coral-red'> Quality </span> Shoes */}
         </h2>
         <p className='mt-5 lg:max-w-lg info-text'>
-      GeekVishwa Hackathon is planned to be one of the largest hybrid (Offline-Online) hackathons in Pune, Organized by GeeksForGeeks Student Chapter VIIT.
+          GeekVishwa Hackathon is planned to be one of the largest hybrid (Offline-Online) hackathons in Pune, Organized by GeeksForGeeks Student Chapter VIIT.
         </p>
         <p className='mt-5 lg:max-w-lg info-text'>
           It is event of unprecedented scale, opportunity, and rewards, where we intent to attract and showcase the brightest talents across the plethora of engineering colleges in Pune.
         </p>
-        <div className='mt-12'>
+        {/* <div className='mt-12'>
           <Button label='View Details' />
-        </div>
+        </div> */}
+
         <div
-          className="apply-button"
-          alt ="DEVFOLIO LOGO"
-          data-hackathon-slug="YOUR-HACKATHON-SLUG"
+          class="apply-button"
+          data-hackathon-slug="geekvishwa"
           data-button-theme="light"
-          // style={"height": "44px", "width": "312px"}
-          style={{height:"44px",width:"312px"}}
+          style={{height: "44px", width: "312px"}}
         ></div>
       </div>
 
@@ -50,7 +49,7 @@ function SuperQuality() {
           width={570}
           height={522}
           className='object-contain'
-          style={{borderRadius:"50%"}}
+          style={{ borderRadius: "50%" }}
         />
       </div>
     </section>
