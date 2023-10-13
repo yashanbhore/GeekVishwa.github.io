@@ -1,4 +1,5 @@
-# **✔ GFG VIIT**
+
+![logo](https://github.com/AryanP45/GeekVishwa.github.io/assets/95161886/ba6146e3-2470-4a7e-b470-273be6d912a8)**GFG VIIT**
 
 <h1 align="center">
 
@@ -10,8 +11,6 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/AryanP45/GeekVishwa.github.io)
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/Aryanp45/GeekVishwa.github.io?label=Pull%20Requests)
 ![GitHub issues](https://img.shields.io/github/issues/Aryanp45/GeekVishwa.github.io?label=Issues)
-<hr>
-
 
 ### **Welcome to the GFG VIIT WebPage repository!**
 - Vite + React
