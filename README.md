@@ -1,15 +1,31 @@
-# **✔ Nike Landing WebPage**
+# **✔ GFG VIIT**
 
-### **Welcome to the Nike Landing WebPage repository! This project is a landing page for Nike products built with,**
+<h1 align="center">
+
+![GitHub followers](https://img.shields.io/github/followers/AryanP45?color=Blue&style=social)
+![GitHub forks](https://img.shields.io/github/forks/AryanP45/GeekVishwa.github.io?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/AryanP45/GeekVishwa.github.io?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/AryanP45/GeekVishwa.github.io?style=social)
+![APM](https://img.shields.io/apm/l/vim-mode?style=social)  
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/AryanP45/GeekVishwa.github.io)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/Aryanp45/GeekVishwa.github.io?label=Pull%20Requests)
+![GitHub issues](https://img.shields.io/github/issues/Aryanp45/GeekVishwa.github.io?label=Issues)
+<hr>
+
+
+### **Welcome to the GFG VIIT WebPage repository!**
 - Vite + React
 - Tailwind CSS
 
-#### **Visit the site : https://nike-landing-page-samrat.netlify.app/**
+#### **Visit the site : https://gfgviit.tech/**
 
-#### **ScreenShots :**
+## ✍️ Authors
 
-![Screenshot (102)](https://github.com/samrat2k03/nike-landing-page/assets/77772897/c9164337-6e9e-4b07-968d-6220690ccf83)
-<br/>
-#### **Full WebPage ScreenShot :**
+- [@AryanPatil](https://www.github.com/AryanP45)
+- [@AdinathShelke](https://www.github.com/adi-shelke)
 
-![localhost_5173_ (1)](https://github.com/samrat2k03/nike-landing-page/assets/77772897/477cabaa-dbc9-48a5-be5d-3a55405c8a54)
+## 🏆 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+BrowserRouter : https://blog.arnabghosh.me/netlify-react-router-not-working
