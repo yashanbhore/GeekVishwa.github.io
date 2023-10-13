@@ -19,7 +19,7 @@
 
 #### **Visit the site : https://gfgviit.tech/**
 
-## ✍️ Authors
+## ✍️ Contributors
 
 - [@AryanPatil](https://www.github.com/AryanP45)
 - [@AdinathShelke](https://www.github.com/adi-shelke)
@@ -27,5 +27,3 @@
 ## 🏆 License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-BrowserRouter : https://blog.arnabghosh.me/netlify-react-router-not-working
