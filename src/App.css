@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.goldSponsor{
+  color: #919127;
+  font-weight: 500;
+}
+.silverSponsor{
+  color: #848484;
+  font-weight: 500;
+}
