@@ -9,6 +9,9 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -19,9 +22,9 @@
 }
 
 body {
-
 height: 100vh;
 width: 100vw;
+background-color: #282828;
 }
 
 .nav-wrapper{
@@ -29,6 +32,7 @@ width: 100vw;
   position: fixed;
   top: 0;
   width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 .hero-section
 {
@@ -52,12 +56,31 @@ width: 100vw;
 }
 .about-gfg{
   color: white;
-  background-color: rgba(0, 227, 80, 0.3);
+  background-color: rgba(166, 216, 184, 0.15);
+  /* background-color: rgb(166, 216, 184); */
 }
 .footer{
   color: white;
-  background-color: rgba(39, 41, 40, 0.4);
+  background-color: rgba(12, 13, 13, 0.4);
 }
 .footer-logo{
   height: 100% !important;
+}
+
+.gfg-gradient{
+  background-image: linear-gradient(43deg,#104a20 0%,#44915b 46%,#b5e6c4 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 900 !important;
+  font-size: 40px;
+}
+
+.card{
+  background-color: rgba(160, 227, 164, 0.4);
+}
+
+.dash{
+  height: 5px;
+  width: 400px;
+  background: rgb(176, 166, 166);
 }
