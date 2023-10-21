@@ -6,6 +6,7 @@ import Footer from '@/component/Footer'
 import Sponsors from '@/component/Sponsors'
 import golddata from '../../public/assets/gold_data'
 import silverdata from '../../public/assets/silver_data'
+import Banner from '@/component/Banner'
 
 
 export default function Home() {
@@ -24,14 +25,12 @@ export default function Home() {
       <div id="event-section">
       <AboutGFG head={gwhead} desc={gwgdesc} />
       </div>
+      <Banner/>
       <div className='flex justify-center align-center gfg-gradient text-[50px] mb-[3rem]'>
         <span>Organizations who helped us in our Lift Off</span>
       </div>
       <Sponsors type="Gold Sponsors" data={golddata}/>
       <Sponsors type="Silver Sponsors" data={silverdata}/>
-
-      
-
       <Footer/>
     </div>
 

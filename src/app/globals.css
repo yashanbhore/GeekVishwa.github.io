@@ -29,7 +29,7 @@ width: 100vw;
 }
 
 .nav-wrapper{
-  height: 8%;
+  height: 10%;
   position: fixed;
   top: 0;
   width: 100%;
@@ -52,8 +52,11 @@ width: 100vw;
   height: 100%;
   top: 0;
 }
-.fade{
-  position: fixed;
+.test{
+  color: red;
+}
+.test:hover{
+  color: white;
 }
 .about-gfg{
   color: white;
@@ -216,7 +219,11 @@ animation-delay: 1.5s;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-  color: rgb(255, 255, 255);
+  color: rgb(90, 171, 90);
 	/* min-height: 100vh; */
 	/* background: green; */
+}
+
+.section-card:hover{
+  background-color: red;
 }
