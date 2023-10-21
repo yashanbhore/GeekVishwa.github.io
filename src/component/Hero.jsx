@@ -17,7 +17,7 @@ const Hero = () => {
     return (
         <div className='hero-section flex justify-center items-center flex-col '>
             <div className='mt-[3rem]'>
-                <img src="../assets/event_logo.png" alt="" />
+                <img src="../assets/loader.gif" alt="" />
             </div>
             <div className='flex flex-col items-center'>
                 <div className='mb-[1.5rem] flex-center justify-center'>

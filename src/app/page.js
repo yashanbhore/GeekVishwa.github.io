@@ -18,7 +18,7 @@ export default function Home() {
 
   return (
     <div className='content'>
-      <Nav />
+      {/* <Nav /> */}
       <Hero />
       <AboutGFG head={gfghead} desc={gfgdesc} />
       <div id="event-section">
@@ -27,8 +27,8 @@ export default function Home() {
       <div className='flex justify-center align-center gfg-gradient text-[50px] mb-[3rem]'>
         <span>Organizations who helped us in our Lift Off</span>
       </div>
-      <Sponsors type="Gold" data={golddata}/>
-      <Sponsors type="Silver" data={silverdata}/>
+      <Sponsors type="Gold Sponsors" data={golddata}/>
+      <Sponsors type="Silver Sponsors" data={silverdata}/>
 
       <Footer/>
     </div>

@@ -9,7 +9,7 @@ const nav = () => {
                 <img src="../assets/logo.png" alt="logo" width="250px" />
             </div>
             <div className='lg:text-[20px] text-white md:text-[16px]'>
-                <Link href="#home" className='mx-5'>Home</Link>
+                <Link href="/" className='mx-5'>Home</Link>
                 <Link href="#event-section"className='mx-5'>Events</Link>
                 <Link href="/team"className='mx-5'>Team</Link>
                 <Link href="#home"className='mx-5'>Sponsors</Link>

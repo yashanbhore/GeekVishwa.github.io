@@ -7,7 +7,7 @@ const Sponsors = ({type,data}) => {
             <div className='flex justify-center items-center mb-[3rem]'>
                 <div className='dash mx-[2rem] ' />
                 <span className='text-[30px] text-white'>
-                    {type} Sponsors
+                    {type}
                 </span>
                 <div className='dash mx-[2rem] '>
 
