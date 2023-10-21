@@ -17,12 +17,12 @@ const Hero = () => {
 
     return (
         <div className='hero-section flex justify-center items-center flex-col '>
-            <div className=''>
+            <div className='h-[61%] w-[87%] flex justify-center hero-image-container'>
                 <img src="../assets/loader.gif" alt="" />
             </div>
 
             <div className='flex flex-col items-center'>
-                <div className="App flex mb-[2rem]">
+                <div className="App flex mb-[2rem] text-[34px] font-black">
                     <Typewriter
 
                         options={{
@@ -40,8 +40,8 @@ const Hero = () => {
                         }}
                     />
                 </div>
-                <div className='mb-[1.5rem] flex-center justify-center'>
-                    <span className='text-[40px] text-6xl font-bold gfg-gradient '>Register Now !!!</span>
+                <div className='mb-[1.5rem] flex-center justify-center '>
+                    <span className='text-[60px] text-6xl font-black  register'>Register Now !!!</span>
                 </div>
 
                 <div

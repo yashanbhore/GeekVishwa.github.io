@@ -11,7 +11,7 @@ import { Autoplay, Pagination } from "swiper/modules"
 
 const Banner = () => {
   return (
-    <div className='flex justify-center'>
+    <div className='flex justify-center mb-[5rem]'>
 
       <Swiper
         pagination={true}

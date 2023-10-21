@@ -4,7 +4,7 @@ import SponserCard from './SponserCard'
 const Sponsors = ({type,data}) => {
     return (
         <section>
-            <div className='flex justify-center items-center mb-[3rem]'>
+            <div className='flex justify-center items-center mb-[3rem] sponsor-type'>
                 <div className='dash mx-[2rem] ' />
                 <span className='text-[30px] text-white'>
                     {type}
@@ -13,7 +13,7 @@ const Sponsors = ({type,data}) => {
 
                 </div>
             </div>
-            <div className='flex justify-around mb-[5rem]'>
+            <div className='flex justify-around mb-[5rem] sponsor-card'>
             {data.map((card) => (
                 <SponserCard img={card.img} alt={card.alt}/>
             ))}
