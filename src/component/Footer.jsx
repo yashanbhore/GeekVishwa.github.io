@@ -9,8 +9,8 @@ const Footer = () => {
     <div className='footer'>
 
       <div className='h-[300px] flex items-center text-white justify-around '>
-        <div className='h-full'>
-          <img src="../assets/event_logo.svg" alt='event_logo' className='footer-logo'></img>
+        <div className='h-[80%]'>
+          <img src="../assets/gfg_logo_small.png" alt='event_logo' className='footer-logo'></img>
         </div>
         <div className='flex flex-col '>
           <span className='underline decoration-[#104a20] decoration-[0.4rem] text-[30px] underline-offset-8'>Documents</span>

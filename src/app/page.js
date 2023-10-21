@@ -30,6 +30,8 @@ export default function Home() {
       <Sponsors type="Gold Sponsors" data={golddata}/>
       <Sponsors type="Silver Sponsors" data={silverdata}/>
 
+      
+
       <Footer/>
     </div>
 
