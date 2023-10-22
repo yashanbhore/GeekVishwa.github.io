@@ -15,7 +15,7 @@ const Sponsors = ({type,data}) => {
             </div>
             <div className='flex justify-around mb-[5rem] sponsor-card'>
             {data.map((card) => (
-                <SponserCard img={card.img} alt={card.alt}/>
+                <SponserCard img={card.img} alt={card.alt} key={Math.random()}/>
             ))}
 
             </div>

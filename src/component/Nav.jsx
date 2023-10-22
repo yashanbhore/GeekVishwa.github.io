@@ -3,7 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 import {TfiMenuAlt} from "react-icons/tfi"
 import { useState } from 'react'
-const nav = () => {
+const Nav = () => {
     const [toggle, settoggle] = useState(false)
     const handleClick  =()=>{
         if(!toggle){
@@ -38,4 +38,4 @@ const nav = () => {
     )
 }
 
-export default nav
+export default Nav
