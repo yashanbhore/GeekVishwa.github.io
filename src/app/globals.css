@@ -38,7 +38,7 @@ width: 100vw;
   top: 0;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.4);
-  z-index: 2;
+  z-index: 4;
 }
 .hero-section
 {
@@ -154,10 +154,6 @@ width: 100vw;
 .copyright{
   background-color: rgba(29, 28, 28, 0.8);
 }
-
-
-
-
 
 /* FOR BACKGROUND  */
 .circle{
@@ -375,7 +371,7 @@ width: 100vw;
 
 @media only screen and (max-width: 500px){
   .hero-image-container{
-    height: 40%;
+    height: 35%;
   }
   .footer{
     height: 50%;
@@ -399,8 +395,7 @@ width: 100vw;
   .section-card{
     width: 85%;
   }
-}
-@media only screen and (max-width: 500px){
+
   .register{
     font-size: 40px !important;
   }
@@ -408,4 +403,9 @@ width: 100vw;
     padding: 13px 13px;
     font-size: 16px !important;
   }
+  .nav-logo{
+    width: 60px;
+  }
+
+
 }
