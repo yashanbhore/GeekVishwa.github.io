@@ -6,48 +6,70 @@ import Link from 'next/link'
 import { useEffect } from 'react'
 
 const Footer = () => {
+  // useEffect(() => {
+  //   const canvas = document.getElementById('Matrix');
+  //   const context = canvas.getContext('2d');
+
+  //   canvas.width = window.innerWidth;
+  //   canvas.height = window.innerHeight;
+
+  //   const katakana = 'アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッン';
+  //   const latin = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  //   const nums = '0123456789';
+
+  //   const alphabet = katakana + latin + nums;
+
+  //   const fontSize = 10;
+  //   const columns = canvas.width / fontSize;
+
+  //   const rainDrops = [];
+
+  //   for (let x = 0; x < columns; x++) {
+  //     rainDrops[x] = 1;
+  //   }
+
+  //   const draw = () => {
+  //     context.fillStyle = 'rgba(0, 0, 0, 0.05)';
+  //     context.fillRect(0, 0, canvas.width, canvas.height);
+
+  //     context.fillStyle = '#0F0';
+  //     context.font = fontSize + 'px monospace';
+
+  //     for (let i = 0; i < rainDrops.length; i++) {
+  //       const text = alphabet.charAt(Math.floor(Math.random() * alphabet.length));
+  //       context.fillText(text, i * fontSize, rainDrops[i] * fontSize);
+
+  //       if (rainDrops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+  //         rainDrops[i] = 0;
+  //       }
+  //       rainDrops[i]++;
+  //     }
+  //   };
+
+  //   setInterval(draw, 30);
+  // }, [])
+
   useEffect(() => {
-    const canvas = document.getElementById('Matrix');
-    const context = canvas.getContext('2d');
+      function lines(){
+        let width = Math.random() * 12;
+        let e = document.createElement('div')
+        e.setAttribute("class", "circle")
+        document.body.appendChild(e)
+        e.style.width=2+width+'px'
+        e.style.left=Math.random()*innerWidth+'px';
+        e.style.margin="20px 0"
 
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
-
-    const katakana = 'アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッン';
-    const latin = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-    const nums = '0123456789';
-
-    const alphabet = katakana + latin + nums;
-
-    const fontSize = 10;
-    const columns = canvas.width / fontSize;
-
-    const rainDrops = [];
-
-    for (let x = 0; x < columns; x++) {
-      rainDrops[x] = 1;
-    }
-
-    const draw = () => {
-      context.fillStyle = 'rgba(0, 0, 0, 0.05)';
-      context.fillRect(0, 0, canvas.width, canvas.height);
-
-      context.fillStyle = '#0F0';
-      context.font = fontSize + 'px monospace';
-
-      for (let i = 0; i < rainDrops.length; i++) {
-        const text = alphabet.charAt(Math.floor(Math.random() * alphabet.length));
-        context.fillText(text, i * fontSize, rainDrops[i] * fontSize);
-
-        if (rainDrops[i] * fontSize > canvas.height && Math.random() > 0.975) {
-          rainDrops[i] = 0;
-        }
-        rainDrops[i]++;
+        setTimeout(() => {
+          document.body.removeChild(e)
+        },5000);
       }
-    };
 
-    setInterval(draw, 30);
+      setInterval(function(){
+        lines()
+      },500)
   }, [])
+
+   
 
   return (
     <div className='footer' id='footer'>

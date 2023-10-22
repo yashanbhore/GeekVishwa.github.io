@@ -40,7 +40,7 @@ const Hero = () => {
                         }}
                     />
                 </div>
-                <div className='mb-[1.5rem] flex-center justify-center '>
+                <div className='mb-[3rem] flex-center justify-center '>
                     <span className='text-[60px] text-6xl font-black  register'>Register Now !!!</span>
                 </div>
 

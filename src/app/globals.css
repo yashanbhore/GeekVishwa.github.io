@@ -4,6 +4,9 @@
 ::-webkit-scrollbar {
   display: none;
 }
+*{
+  box-sizing: border-box;
+}
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -81,6 +84,10 @@ width: 100vw;
 
 .card{
   background-color: rgba(255, 255, 255, 1);
+  z-index: 3;
+}
+.section-card{
+  z-index: 3;
 }
 
 .dash{
@@ -107,20 +114,21 @@ width: 100vw;
 }    
 .register{
   color: #58fb42;
-        text-shadow: 0 0 3vw #F40A35;
-        animation: glow 1.2s ease infinite;
-        -moz-animation: glow 1.2s ease infinite;
-        -webkit-animation: glow 1.2s ease infinite;
+        /* text-shadow: 0 0 3vw #F40A35; */
+        /* animation: glow 1.2s ease infinite; */
+        /* -moz-animation: glow 1.2s ease infinite; */
+        -webkit-animation: glow 2s ease-in-out infinite;
+
 }
 @keyframes glow {
   0%,
-  100% {
-    text-shadow: 0 0 1vw #3cf716, 0 0 3vw #178406, 0 0 10vw #108818, 0 0 10vw #1aff00, 0 0 .4vw #30f644, .5vw .5vw .1vw #1fcf1f;
-    color: #ffffff;
-  }
+  /* 100% {
+    text-shadow: 0 0 1px #3cf716, 0 0 3vw #178406, 0 0 10vw #108818, 0 0 10vw #1aff00, 0 0 .4vw #30f644, .5vw .5vw .1vw #1fcf1f;
+    color: #b1b1b1;
+  } */
   50% {
-    text-shadow: 0 0 .5vw #ffffff, 0 0 1.5vw #ffffff, 0 0 5vw #ffffff, 0 0 5vw #ffffff, 0 0 .2vw #f0f0f0, .5vw .5vw .1vw #38ac24;
-    color: #ffffff;
+    text-shadow: 0 0 1px #b1b1b1, 0 0 1.5vw #b1b1b1, 0 0 5vw #b1b1b1, 0 0 5vw #b1b1b1, 0 0 .2vw #b1b1b1, .5vw .5vw .1vw #38ac24;
+    color: #b1b1b1;
   }
 }
 
@@ -146,6 +154,60 @@ width: 100vw;
 .copyright{
   background-color: rgba(29, 28, 28, 0.8);
 }
+
+
+
+
+
+/* FOR BACKGROUND  */
+.circle{
+  position: fixed;
+  bottom:  0;
+  width: 20px;
+  z-index: -2;
+  aspect-ratio: 1/1;
+  background: #0f0;
+  box-shadow: 0 0 10px #0f0,
+  0 0 20px #0f0,
+  0 0 30px #0f0,
+  0 0 50px #0f0;
+  border-radius: 50%;
+  animation: animate 5s linear forwards;
+}
+@keyframes animate {
+  0%{
+    transform: translateY(0);
+    opacity: 1;
+
+  }
+  50%{
+    opacity: 1;
+  }
+  70%{
+    transform: translateY(-70vh);
+    opacity: 1;
+  }
+  100%{
+    transform: translateY(-100vh);
+    opacity: 0;
+  }
+}
+.circle::before{
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 25%;
+  /* width: 50%; */
+  height: 100vh;
+  opacity: 0.5s;
+  background: linear-gradient(#0f0, transparent);
+}
+
+
+
+
+
+
 
 /* for responsiveness */
 @media only screen and (max-width: 1300px){
