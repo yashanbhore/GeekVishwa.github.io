@@ -1,13 +1,6 @@
 import TeamCards from '../../component/TeamCards.jsx';
-const Page = () => {
-    return (
-        <div>
-      
-            <div className='mt-[3rem]'>
-                <TeamCards/>
-            </div>
-=======
 import Footer from '@/component/Footer.jsx';
+
 const Page = () => {
     return (
         <div>

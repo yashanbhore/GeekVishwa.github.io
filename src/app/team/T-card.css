@@ -2,6 +2,10 @@
     display: flex;
    
 }
+.main-th:hover .s-handles{
+    display: flex;
+   
+}
 .s-handles{
     transition-duration: 1s;
     transition-property: all;
@@ -56,7 +60,7 @@
 }
 .main-th:hover .title{
     color: green;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .main-th:hover .pos{
@@ -64,7 +68,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.2rem;
 
-}
 }
 
 .swiper-slide{
@@ -84,4 +87,4 @@
 
     /* You can add more rules for other elements as needed */
 }
-}
+
