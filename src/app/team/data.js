@@ -7,8 +7,10 @@ export default [
                 img: "/assets/Team/Pratham Patil.png",
                 title: "Pratham Patil ",
                 pos: "President",
+                instaLink:"https://instagram.com/_pratham18_?igshid=MzNlNGNkZWQ4Mg==",
+                linkedinLink:"https://www.linkedin.com/in/pratham-patil-4826a422b",
                 team: 'core',
-                text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab eius molestias, quasi, quam omnis magnam impedit hic totam repudiandae reiciendis voluptate inventore nisi quidem.",
+
             },
             {
                 img: "/assets/Team/AmanKasat - B2_33 Aman Kasat.jpg",

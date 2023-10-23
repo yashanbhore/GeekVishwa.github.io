@@ -23,13 +23,12 @@ const Nav = () => {
         <div  className=' items-center nav-wrapper bg-[*]  flex justify-center  '>
             <div className='lg:text-[20px] text-white md:text-[16px]'>
                 <Link href="/" className='mx-[3rem] nav-link'>Home</Link>
-                <Link href="#event-section"className='mx-[3rem] nav-link'>Events</Link>
+                <Link href="/#event-section"className='mx-[3rem] nav-link'>Events</Link>
                 <Link href="/team"className='mx-[3rem] nav-link'>Team</Link>
-                <Link href="#sponsors"className='mx-[3rem] nav-link'>Sponsors</Link>
+                <Link href="/#sponsors"className='mx-[3rem] nav-link'>Sponsors</Link>
                 <Link href="#footer"className='mx-[3rem] nav-link'>Contact</Link>
             </div>
             <div className='flex justify-center items-center text-white menu-icon hidden' onClick={handleClick} >
-            {/* <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Default</button> */}
             <TfiMenuAlt/>
             </div>
         </div>

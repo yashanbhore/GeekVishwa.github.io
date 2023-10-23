@@ -39,7 +39,7 @@ const TeamCards = () => {
         slidesPerView={1}
       >
         {data[0].core.map((card,index)=>(
-          <SwiperSlide className='flex justify-center'>
+          <SwiperSlide className='flex justify-center' key={index}>
           <div className="main w-[300px] h-[300px] mt-[2rem] bg-white flex justify-center items-center border border-gray-200 pt-[1rem] rounded-[20px] shadow dark:bg-gray-800 dark:border-gray-700" >
               <div className="pw flex flex-col items-center pb-10">
                 <img className="pic w-40 h-40 mb-3 rounded-full shadow-lg" src={card.img} alt="Bonnie image" />
@@ -97,7 +97,7 @@ const TeamCards = () => {
         slidesPerView={1}
       >
         {data[0].tech.map((card,index)=>(
-          <SwiperSlide className='flex justify-center'>
+          <SwiperSlide className='flex justify-center' key={index}>
           <div className="main w-[300px] h-[300px] mt-[2rem] bg-white flex justify-center items-center border border-gray-200 pt-[1rem] rounded-[20px] shadow dark:bg-gray-800 dark:border-gray-700"style={{ margin: '0 5px' }}>
               <div className="pw flex flex-col items-center pb-10">
                 <img className="pic w-40 h-40 mb-3 rounded-full shadow-lg" src={card.img} alt="Bonnie image" />
@@ -153,7 +153,7 @@ const TeamCards = () => {
         slidesPerView={1}
       >
         {data[0].design.map((card,index)=>(
-          <SwiperSlide className='flex justify-center'>
+          <SwiperSlide className='flex justify-center' key={index}>
           <div className="main w-[300px] h-[300px]  bg-white flex justify-center items-center border border-gray-200 pt-[1rem] rounded-[20px] shadow dark:bg-gray-800 dark:border-gray-700"style={{ margin: '0 5px' }}>
               <div className="pw flex flex-col items-center pb-10">
                 <img className="pic w-40 h-40 mb-3 rounded-full shadow-lg" src={card.img} alt="Bonnie image" />
@@ -211,7 +211,7 @@ const TeamCards = () => {
         slidesPerView={1}
       >
         {data[0].event.map((card,index)=>(
-          <SwiperSlide className='flex justify-center'>
+          <SwiperSlide className='flex justify-center' key={index}>
           <div className="main w-[300px] h-[300px] mt-[rem] bg-white flex justify-center items-center border border-gray-200 pt-[1rem] rounded-[20px] shadow dark:bg-gray-800 dark:border-gray-700"style={{ margin: '0 5px' }}>
               <div className="pw flex flex-col items-center pb-10">
                 <img className="pic w-40 h-40 mb-3 rounded-full shadow-lg" src={card.img} alt="Bonnie image" />
@@ -270,7 +270,7 @@ const TeamCards = () => {
         slidesPerView={1}
       >
         {data[0].finance.map((card,index)=>(
-          <SwiperSlide className='flex gap-[2rem] justify-around'>
+          <SwiperSlide className='flex gap-[2rem] justify-around' key={index}>
           <div className="main w-[300px] h-[300px]  mt-[2rem] bg-white flex justify-center items-center border border-gray-200 pt-[1rem] rounded-[20px] shadow dark:bg-gray-800 dark:border-gray-700"style={{ margin: '0 20px' }}>
               <div className="pw flex flex-col items-center pb-10">
                 <img className="pic w-40 h-40 mb-3 rounded-full shadow-lg" src={card.img} alt="Bonnie image" />
@@ -316,7 +316,7 @@ const TeamCards = () => {
         slidesPerView={1}
       >
         {data[0].doc.map((card,index)=>(
-          <SwiperSlide className='flex justify-center'>
+          <SwiperSlide className='flex justify-center' key={index}>
           <div className="main w-[300px] h-[300px] mt-[2rem] bg-white flex justify-center items-center border border-gray-200 pt-[1rem] rounded-[20px] shadow dark:bg-gray-800 dark:border-gray-700"style={{ margin: '0 5px' }}>
               <div className="pw flex flex-col items-center pb-10">
                 <img className="pic w-40 h-40 mb-3 rounded-full shadow-lg" src={card.img} alt="Bonnie image" />
@@ -362,7 +362,7 @@ const TeamCards = () => {
         slidesPerView={1}
       >
         {data[0].content.map((card,index)=>(
-          <SwiperSlide className='flex justify-center'>
+          <SwiperSlide className='flex justify-center' key={index}>
           <div className="main w-[300px] h-[300px] mt-[2rem] bg-white flex justify-center items-center border border-gray-200 pt-[1rem] rounded-[20px] shadow dark:bg-gray-800 dark:border-gray-700"style={{ margin: '0 5px' }}>
               <div className="pw flex flex-col items-center pb-10">
                 <img className="pic w-40 h-40 mb-3 rounded-full shadow-lg" src={card.img} alt="Bonnie image" />
@@ -408,7 +408,7 @@ const TeamCards = () => {
         slidesPerView={1}
       >
         {data[0].publicity.map((card,index)=>(
-          <SwiperSlide className='flex justify-center'>
+          <SwiperSlide className='flex justify-center' key={index}>
           <div className="main w-[300px] h-[300px] mt-[2rem] bg-white flex justify-center items-center border border-gray-200 pt-[1rem] rounded-[20px] shadow dark:bg-gray-800 dark:border-gray-700"style={{ margin: '0 5px' }}>
               <div className="pw flex flex-col items-center pb-10">
                 <img className="pic w-40 h-40 mb-3 rounded-full shadow-lg" src={card.img} alt="Bonnie image" />
