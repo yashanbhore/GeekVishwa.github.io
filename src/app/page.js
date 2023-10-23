@@ -7,7 +7,7 @@ import Sponsors from '@/component/Sponsors'
 import golddata from '../../public/assets/gold_data'
 import silverdata from '../../public/assets/silver_data'
 import Banner from '@/component/Banner'
-import TimeLine from '@/component/Timeline'
+import TimeLine from '@/component/TimeLine'
 
 
 export default function Home() {
