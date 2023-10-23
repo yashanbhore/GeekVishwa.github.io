@@ -168,14 +168,6 @@ width: 100vw;
   background-color: rgba(29, 28, 28, 0.8);
 }
 
-
-
-
-
-
-
-
-
 /* FIRE WORKS */
 
 #fire-works{
@@ -186,10 +178,6 @@ width: 100vw;
   height: 100%;
   z-index: -1;
 }
-
-
-
-
 
 /* FOR BACKGROUND  */
 .circle{
@@ -234,9 +222,6 @@ width: 100vw;
   opacity: 0.5s;
   background: linear-gradient(#0f0, transparent);
 }
-
-
-
 
 
 
