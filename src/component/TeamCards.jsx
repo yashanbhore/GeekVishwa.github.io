@@ -35,7 +35,7 @@ const TeamCards = () => {
         slidesPerView={1}
       >
         {data.map((card,index)=>(
-          <SwiperSlide className='flex justify-center'>
+          <SwiperSlide key={index} className='flex justify-center'>
           <div className="main w-[300px] h-[300px] mt-[2rem] bg-white flex justify-center items-center border border-gray-200 pt-[1rem] rounded-[20px] shadow dark:bg-gray-800 dark:border-gray-700">
               <div className="pw flex flex-col items-center pb-10">
                 <img className="pic w-40 h-40 mb-3 rounded-full shadow-lg" src="/assets/1.png" alt="Bonnie image" />
