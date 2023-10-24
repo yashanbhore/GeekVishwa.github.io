@@ -265,7 +265,7 @@ const TeamCards = () => {
         1400: {
           // width: 768,
 
-          slidesPerView: 3,
+          slidesPerView: 2,
         },
         900: {
           // width: 768,
@@ -314,7 +314,7 @@ const TeamCards = () => {
         1400: {
           // width: 768,
 
-          slidesPerView: 3,
+          slidesPerView: 2,
         },
         900: {
           // width: 768,
