@@ -189,5 +189,30 @@ export default [
             },
 
         ],
+        pv: [
+            {
+                img: "/assets/1.png",
+                title: "Rayyan Burondkar ",
+                pos: "PAssociate Head",
+		instaLink:"https://instagram.com/aka.reven?igshid=OGQ5ZDc2ODk2ZA==",
+                linkedinLink:"https://in.linkedin.com/in/rayyan-burondkar-02274825b",
+            },
+            {
+                img: "/assets/1.png",
+                title: "Deepak Bhople ",
+                pos: "Associate Head",
+		instaLink:"https://instagram.com/its.deepak.26?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
+                linkedinLink:"https://www.linkedin.com/in/deepak-rajput-a1941425b",
+            },
+            {
+                img: "/assets/1.png",
+                title: "Siddhant Tade ",
+                pos: "Associate Head",
+		instaLink:"https://instagram.com/siddhanttade?igshid=OGQ5ZDc2ODk2ZA==",
+                linkedinLink:"https://www.linkedin.com/in/siddhant-tade-b7073327a",
+            },
+
+        ],
+    
     },
 ];
