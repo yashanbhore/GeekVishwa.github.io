@@ -21,7 +21,6 @@ export default function Home() {
 
   return (
     <div className='content'>
-      {/* <Nav /> */}
       <Hero />
       <AboutGFG head={gfghead} desc={gfgdesc} />
       <div id="event-section">

@@ -273,9 +273,15 @@ body {
     width: 75%;
   }
 }
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1200px) {
   .nav-link {
     margin: 0 1.5rem;
+  }
+  .prize-main{
+    height: 50%;
+  }
+  #canvas{
+    height: 50% !important;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -333,6 +339,13 @@ body {
   .section-card {
     width: 75%;
   }
+  .prize-main{
+    height: 43%;
+  }
+  #canvas{
+    height: 43% !important;
+    width: 70% !important;
+  }
 }
 @media only screen and (max-width: 800px) {
   .dash {
@@ -343,6 +356,15 @@ body {
   }
   .section-card {
     width: 75%;
+  }
+  .sponsor-main-title {
+    font-size: 30px;
+  }
+  .prize-inner{
+    width: 70%;
+  }
+  #canvas{
+    width: 70% !important;
   }
 }
 @media only screen and (max-width: 750px) {
@@ -378,6 +400,16 @@ body {
   }
   .section-card {
     width: 75%;
+  }
+  .prize-inner{
+    width: 70%;
+  }
+  .prize-main{
+    height: 40%;
+  }
+  #canvas{
+    height: 40% !important;
+    width: 70% !important;
   }
 }
 @media only screen and (max-width: 650px) {
