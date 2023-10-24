@@ -48,8 +48,12 @@ const TeamCards = () => {
                 <h5 className="title mb-1 text-xl font-large text-gray-900 dark:text-white">{card.title}</h5>
                 <span className="pos text-sm text-gray-500 dark:text-gray-400">{card.pos}</span>
                 <div className="s-handles flex mt-4 space-x-3 md:mt-6">
+                   <a href={card.instaLink}>
                 <BsInstagram style={{ fontSize: '24px' }} />
+                </a>
+                <a href={card.linkedinLink}>
                 <BsLinkedin style={{ fontSize: '24px' }} />
+                </a>
                 </div>
               </div>
             </div>
@@ -70,8 +74,12 @@ const TeamCards = () => {
                 <h5 className="title mb-1 text-xl font-large text-gray-900 dark:text-white">Aryan Patil</h5>
                 <span className="pos text-sm text-gray-500 dark:text-gray-400">Technical Head</span>
                 <div className="s-handles flex mt-4 space-x-3 md:mt-6">
+                  <a href="https://www.instagram.com/aryan_45910/">
                 <BsInstagram style={{ fontSize: '24px' }} />
+                  </a>
+                  <a href="https://www.linkedin.com/in/aryanp45">
                 <BsLinkedin style={{ fontSize: '24px' }} />
+                  </a>
                 </div>
               </div>
             </div>
@@ -107,8 +115,12 @@ const TeamCards = () => {
                 <h5 className="title mb-1 text-xl font-large text-gray-900 dark:text-white">{card.title}</h5>
                 <span className="pos text-sm text-gray-500 dark:text-gray-400">{card.pos}</span>
                 <div className="s-handles flex mt-4 space-x-3 md:mt-6">
+                   <a href={card.instaLink}>
                 <BsInstagram style={{ fontSize: '24px' }} />
+                </a>
+                <a href={card.linkedinLink}>
                 <BsLinkedin style={{ fontSize: '24px' }} />
+                </a>
                 </div>
               </div>
             </div>
@@ -130,8 +142,14 @@ const TeamCards = () => {
                 <h5 className="title mb-1 text-xl font-large text-gray-900 dark:text-white">Bhagyashree Tekade</h5>
                 <span className="pos text-sm text-gray-500 dark:text-gray-400">Design Head</span>
                 <div className="s-handles flex mt-4 space-x-3 md:mt-6">
+                <a href="https://www.instagram.com/arianagrande/">
+
                 <BsInstagram style={{ fontSize: '24px' }} />
+                </a>
+                <a href="https://www.linkedin.com/in/williamhgates/">
+
                 <BsLinkedin style={{ fontSize: '24px' }} />
+                </a>
                 </div>
               </div>
             </div>
@@ -167,8 +185,12 @@ const TeamCards = () => {
                 <h5 className="title mb-1 text-xl font-large text-gray-900 dark:text-white">{card.title}</h5>
                 <span className="pos text-sm text-gray-500 dark:text-gray-400">{card.pos}</span>
                 <div className="s-handles flex mt-4 space-x-3 md:mt-6">
+                   <a href={card.instaLink}>
                 <BsInstagram style={{ fontSize: '24px' }} />
+                </a>
+                <a href={card.linkedinLink}>
                 <BsLinkedin style={{ fontSize: '24px' }} />
+                </a>
                 </div>
               </div>
             </div>
@@ -192,8 +214,14 @@ const TeamCards = () => {
                 <h5 className="title mb-1 text-xl font-large text-gray-900 dark:text-white">Varad Patil</h5>
                 <span className="pos text-sm text-gray-500 dark:text-gray-400">Event Head</span>
                 <div className="s-handles flex mt-4 space-x-3 md:mt-6">
+                <a href="https://instagram.com/varad_patil27?igshid=MzMyNGUyNmU2YQ==">
+
                 <BsInstagram style={{ fontSize: '24px' }} />
+                </a>
+                <a href="https://www.linkedin.com/in/varad-patil-07bb7922a">
+
                 <BsLinkedin style={{ fontSize: '24px' }} />
+                </a>
                 </div>
               </div>
             </div>
@@ -229,8 +257,12 @@ const TeamCards = () => {
                 <h5 className="title mb-1 text-xl font-large text-gray-900 dark:text-white">{card.title}</h5>
                 <span className="pos text-sm text-gray-500 dark:text-gray-400">{card.pos}</span>
                 <div className="s-handles flex mt-4 space-x-3 md:mt-6">
+                   <a href={card.instaLink}>
                 <BsInstagram style={{ fontSize: '24px' }} />
+                </a>
+                <a href={card.linkedinLink}>
                 <BsLinkedin style={{ fontSize: '24px' }} />
+                </a>
                 </div>
               </div>
             </div>
@@ -254,8 +286,14 @@ const TeamCards = () => {
                 <h5 className="title mb-1 text-xl font-large text-gray-900 dark:text-white">Devesh Zinzuwadia</h5>
                 <span className="pos text-sm text-gray-500 dark:text-gray-400">Finance Head</span>
                 <div className="s-handles flex mt-4 space-x-3 md:mt-6">
+                <a href="https://instagram.com/devesh_zinzuwadia?igshid=OGQ5ZDc2ODk2ZA==">
+
                 <BsInstagram style={{ fontSize: '24px' }} />
+                </a>
+                <a href="https://www.linkedin.com/in/devesh-zinzuwadia-613b55243">
+
                 <BsLinkedin style={{ fontSize: '24px' }} />
+                </a>
                 </div>
               </div>
             </div>
@@ -292,8 +330,6 @@ const TeamCards = () => {
                 <h5 className="title mb-1 text-xl font-large text-gray-900 dark:text-white">{card.title}</h5>
                 <span className="pos text-sm text-gray-500 dark:text-gray-400">{card.pos}</span>
                 <div className="s-handles flex mt-4 space-x-3 md:mt-6">
-                <BsInstagram style={{ fontSize: '24px' }} />
-                <BsLinkedin style={{ fontSize: '24px' }} />
                 </div>
               </div>
             </div>
@@ -340,8 +376,12 @@ const TeamCards = () => {
                 <h5 className="title mb-1 text-xl font-large text-gray-900 dark:text-white">{card.title}</h5>
                 <span className="pos text-sm text-gray-500 dark:text-gray-400">{card.pos}</span>
                 <div className="s-handles flex mt-4 space-x-3 md:mt-6">
+                   <a href={card.instaLink}>
                 <BsInstagram style={{ fontSize: '24px' }} />
+                </a>
+                <a href={card.linkedinLink}>
                 <BsLinkedin style={{ fontSize: '24px' }} />
+                </a>
                 </div>
               </div>
             </div>
@@ -387,8 +427,12 @@ const TeamCards = () => {
                 <h5 className="title mb-1 text-xl font-large text-gray-900 dark:text-white">{card.title}</h5>
                 <span className="pos text-sm text-gray-500 dark:text-gray-400">{card.pos}</span>
                 <div className="s-handles flex mt-4 space-x-3 md:mt-6">
+                   <a href={card.instaLink}>
                 <BsInstagram style={{ fontSize: '24px' }} />
+                </a>
+                <a href={card.linkedinLink}>
                 <BsLinkedin style={{ fontSize: '24px' }} />
+                </a>
                 </div>
               </div>
             </div>
@@ -434,8 +478,12 @@ const TeamCards = () => {
                 <h5 className="title mb-1 text-xl font-large text-gray-900 dark:text-white">{card.title}</h5>
                 <span className="pos text-sm text-gray-500 dark:text-gray-400">{card.pos}</span>
                 <div className="s-handles flex mt-4 space-x-3 md:mt-6">
+                   <a href={card.instaLink}>
                 <BsInstagram style={{ fontSize: '24px' }} />
+                </a>
+                <a href={card.linkedinLink}>
                 <BsLinkedin style={{ fontSize: '24px' }} />
+                </a>
                 </div>
               </div>
             </div>
