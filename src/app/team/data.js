@@ -167,7 +167,7 @@ export default [
 
         publicity: [
             {
-                img: "https://res.cloudinary.com/ddtwrelap/image/upload/v1698173131/gfg-team/fnpvzmcor7klbxb64b2u.jpg   ",
+                img: "https://res.cloudinary.com/ddtwrelap/image/upload/v1698173131/gfg-team/fnpvzmcor7klbxb64b2u.jpg",
                 title: "Smit Ramteke",
                 pos: "Publicity Head",
 		instaLink:"https://www.instagram.com/smit.__.ramteke/#",
