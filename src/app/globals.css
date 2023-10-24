@@ -117,14 +117,24 @@ width: 100vw;
   initial-value: 1;
 }    
 .register{
-  color: #58fb42;
-        text-shadow: 0 0 3vw #F40A35;
+  /* color: #58fb42; */
+        /* text-shadow: 0 0 3vw #F40A35;
         animation: glow 1.2s ease infinite;
         -moz-animation: glow 1.2s ease infinite;
-        -webkit-animation: glow 2s ease-in-out infinite;
+        -webkit-animation: glow 2s ease-in-out infinite; */
+        color: #fff;
+        text-shadow:
+            0 0 7px #d2cece,
+            0 0 10px #5b5858,
+            0 0 21px #5a9743,
+            0 0 42px rgb(44, 175, 32),
+            0 0 82px rgb(42, 196, 68),
+            0 0 92px rgb(0, 0, 0),
+            0 0 102px rgb(26, 26, 26),
+            0 0 151px rgb(0, 0, 0);
 
 }
-@keyframes glow {
+/* @keyframes glow {
   0%{
     text-shadow: 0 0 1px #57df57, 0 0 1.5vw #57df57, 0 0 2vw #57df57, 0 0 2vw #57df57, 0 0 .2vw #57df57, .5vw .5vw .1vw #57df57;
     color: #57df57;
@@ -138,7 +148,7 @@ width: 100vw;
     color: #b1b1b1;
   }
   
-}
+} */
 
 
 .MuiTimeline-root{
