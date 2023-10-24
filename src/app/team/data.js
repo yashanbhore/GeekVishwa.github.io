@@ -1,8 +1,6 @@
 export default [
     {
         core: [
-
-
             {
                 img: "/assets/Team/Pratham Patil.png",
                 title: "Pratham Patil ",
