@@ -107,7 +107,8 @@ body {
 }
 #side-nav {
   transition: all 0.5s ease-in-out;
-  z-index: 4;
+  z-index: 5;
+  top: 0;
   height: 100%;
   background-color: rgba(25, 27, 27, 1);
   position: fixed;
