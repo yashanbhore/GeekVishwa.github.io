@@ -256,6 +256,7 @@ body {
 
 
 
+
 /* for responsiveness */
 @media only screen and (max-width: 1300px) {
   .sponsor-main-title {
@@ -448,6 +449,12 @@ body {
   }
 }
 
+@media only screen and (max-width: 550px){
+  .prize-Title{
+    font-size: 28px;
+  }
+}
+
 @media only screen and (max-width: 500px) {
   .hero-image-container {
     height: 35%;
@@ -483,5 +490,9 @@ body {
   }
   .nav-logo {
     width: 60px;
+  }
+  .card{
+    width: 280px;
+    height: 160px;
   }
 }

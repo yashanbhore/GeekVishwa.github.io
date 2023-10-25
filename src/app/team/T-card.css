@@ -43,6 +43,13 @@
 .main{
     transition-duration:1s ;
     transition-property: all;
+
+}
+.main img{
+    object-fit: cover;
+}
+.main-th img{
+    object-fit: cover;
 }
 .main:hover{
     background-color: rgb(211, 255, 167);

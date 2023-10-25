@@ -43,7 +43,7 @@ const TeamCards = () => {
           <SwiperSlide className='flex justify-center' key={index}>
           <div className="main w-[300px] h-[300px] mt-[2rem] bg-white flex justify-center items-center border border-gray-200 pt-[1rem] rounded-[20px] shadow dark:bg-gray-800 dark:border-gray-700" >
               <div className="pw flex flex-col items-center pb-10">
-              <Image src={card.img} width={160} height={160} className='rounded-full shadow-lg'/>
+              <Image loading='lazy'   src={card.img} width={160} height={160} className='rounded-full shadow-lg'/>
                 <h5 className="title mb-1 text-xl font-large text-gray-900 dark:text-white">{card.title}</h5>
                 <span className="pos text-sm text-gray-500 dark:text-gray-400">{card.pos}</span>
                 <div className="s-handles flex mt-4 space-x-3 md:mt-6">
@@ -109,7 +109,7 @@ const TeamCards = () => {
           <SwiperSlide className='flex justify-center' key={index}>
           <div className="main w-[300px] h-[300px] mt-[2rem] bg-white flex justify-center items-center border border-gray-200 pt-[1rem] rounded-[20px] shadow dark:bg-gray-800 dark:border-gray-700"style={{ margin: '0 5px' }}>
               <div className="pw flex flex-col items-center pb-10">
-              <Image src={card.img} width={160} height={160} className='rounded-full shadow-lg'/>
+              <Image loading='lazy'  src={card.img} width={160} height={160} className='rounded-full shadow-lg'/>
                 <h5 className="title mb-1 text-xl font-large text-gray-900 dark:text-white">{card.title}</h5>
                 <span className="pos text-sm text-gray-500 dark:text-gray-400">{card.pos}</span>
                 <div className="s-handles flex mt-4 space-x-3 md:mt-6">
@@ -178,7 +178,7 @@ const TeamCards = () => {
           <SwiperSlide className='flex justify-center' key={index}>
           <div className="main w-[300px] h-[300px]  bg-white flex justify-center items-center border border-gray-200 pt-[1rem] rounded-[20px] shadow dark:bg-gray-800 dark:border-gray-700"style={{ margin: '0 5px' }}>
               <div className="pw flex flex-col items-center pb-10">
-              <Image src={card.img} width={160} height={160} className='rounded-full shadow-lg'/>   
+              <Image loading='lazy'   src={card.img} width={160} height={160} className='rounded-full shadow-lg'/>   
                 <h5 className="title mb-1 text-xl font-large text-gray-900 dark:text-white">{card.title}</h5>
                 <span className="pos text-sm text-gray-500 dark:text-gray-400">{card.pos}</span>
                 <div className="s-handles flex mt-4 space-x-3 md:mt-6">
@@ -249,7 +249,7 @@ const TeamCards = () => {
           <SwiperSlide className='flex justify-center' key={index}>
           <div className="main w-[300px] h-[300px] mt-[rem] bg-white flex justify-center items-center border border-gray-200 pt-[1rem] rounded-[20px] shadow dark:bg-gray-800 dark:border-gray-700"style={{ margin: '0 5px' }}>
               <div className="pw flex flex-col items-center pb-10">
-              <Image src={card.img} width={160} height={160} className='rounded-full shadow-lg'/>
+              <Image loading='lazy'   src={card.img} width={160} height={160} className='rounded-full shadow-lg'/>
                 <h5 className="title mb-1 text-xl font-large text-gray-900 dark:text-white">{card.title}</h5>
                 <span className="pos text-sm text-gray-500 dark:text-gray-400">{card.pos}</span>
                 <div className="s-handles flex mt-4 space-x-3 md:mt-6">
@@ -321,7 +321,7 @@ const TeamCards = () => {
           <SwiperSlide className='flex gap-[2rem] justify-around' key={index}>
           <div className="main w-[300px] h-[300px]  mt-[2rem] bg-white flex justify-center items-center border border-gray-200 pt-[1rem] rounded-[20px] shadow dark:bg-gray-800 dark:border-gray-700"style={{ margin: '0 20px' }}>
               <div className="pw flex flex-col items-center pb-10">
-              <Image src={card.img} width={160} height={160} className='rounded-full shadow-lg'/>
+              <Image loading='lazy'   src={card.img} width={160} height={160} className='rounded-full shadow-lg'/>
                 <h5 className="title mb-1 text-xl font-large text-gray-900 dark:text-white">{card.title}</h5>
                 <span className="pos text-sm text-gray-500 dark:text-gray-400">{card.pos}</span>
                 <div className="s-handles flex mt-4 space-x-3 md:mt-6">
@@ -366,7 +366,7 @@ const TeamCards = () => {
           <SwiperSlide className='flex justify-center' key={index}>
           <div className="main w-[300px] h-[300px] mt-[2rem] bg-white flex justify-center items-center border border-gray-200 pt-[1rem] rounded-[20px] shadow dark:bg-gray-800 dark:border-gray-700"style={{ margin: '0 5px' }}>
               <div className="pw flex flex-col items-center pb-10">
-              <Image src={card.img} width={160} height={160} className='rounded-full shadow-lg'/>
+              <Image loading='lazy'   src={card.img} width={160} height={160} className='rounded-full shadow-lg'/>
                 <h5 className="title mb-1 text-xl font-large text-gray-900 dark:text-white">{card.title}</h5>
                 <span className="pos text-sm text-gray-500 dark:text-gray-400">{card.pos}</span>
                 <div className="s-handles flex mt-4 space-x-3 md:mt-6">
@@ -416,7 +416,7 @@ const TeamCards = () => {
           <SwiperSlide className='flex justify-center' key={index}>
           <div className="main w-[300px] h-[300px] mt-[2rem] bg-white flex justify-center items-center border border-gray-200 pt-[1rem] rounded-[20px] shadow dark:bg-gray-800 dark:border-gray-700"style={{ margin: '0 5px' }}>
               <div className="pw flex flex-col items-center pb-10">
-              <Image src={card.img} width={160} height={160} className='rounded-full shadow-lg'/>
+              <Image loading='lazy'   src={card.img} width={160} height={160} className='rounded-full shadow-lg'/>
                 <h5 className="title mb-1 text-xl font-large text-gray-900 dark:text-white">{card.title}</h5>
                 <span className="pos text-sm text-gray-500 dark:text-gray-400">{card.pos}</span>
                 <div className="s-handles flex mt-4 space-x-3 md:mt-6">
@@ -466,7 +466,7 @@ const TeamCards = () => {
           <SwiperSlide className='flex justify-center' key={index}>
           <div className="main w-[300px] h-[300px] mt-[2rem] bg-white flex justify-center items-center border border-gray-200 pt-[1rem] rounded-[20px] shadow dark:bg-gray-800 dark:border-gray-700"style={{ margin: '0 5px' }}>
               <div className="pw flex flex-col items-center pb-10">
-              <Image src={card.img} width={160} height={160} className='rounded-full shadow-lg'/> 
+              <Image loading='lazy'   src={card.img} width={160} height={160} className='rounded-full shadow-lg'/> 
                 <h5 className="title mb-1 text-xl font-large text-gray-900 dark:text-white">{card.title}</h5>
                 <span className="pos text-sm text-gray-500 dark:text-gray-400">{card.pos}</span>
                 <div className="s-handles flex mt-4 space-x-3 md:mt-6">
@@ -516,7 +516,7 @@ const TeamCards = () => {
           <SwiperSlide className='flex justify-center' key={index}>
           <div className="main w-[300px] h-[300px] mt-[2rem] bg-white flex justify-center items-center border border-gray-200 pt-[1rem] rounded-[20px] shadow dark:bg-gray-800 dark:border-gray-700"style={{ margin: '0 5px' }}>
               <div className="pw flex flex-col items-center pb-10">
-              <Image src={card.img} width={160} height={160} className='rounded-full shadow-lg'/> 
+              <Image loading='lazy'  src={card.img} width={160} height={160} className='rounded-full shadow-lg'/> 
                 <h5 className="title mb-1 text-xl font-large text-gray-900 dark:text-white">{card.title}</h5>
                 <span className="pos text-sm text-gray-500 dark:text-gray-400">{card.pos}</span>
                 <div className="s-handles flex mt-4 space-x-3 md:mt-6">

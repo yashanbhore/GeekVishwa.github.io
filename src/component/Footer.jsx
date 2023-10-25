@@ -188,9 +188,9 @@ const Footer = () => {
           <span className='underline decoration-[#104a20] decoration-[0.4rem] text-[30px] underline-offset-8 footer-title'>Documents</span>
           <div className='flex flex-col mt-[1rem] text-[20px] footer-item'>
 
-            <a href='https://hackthespace.co/images/footer/Code%20of%20Conduct%20-%20HTS.pdf'>
-              <span>Rule Book</span>
-            </a>
+            {/* <a href=''> */}
+              <span className='rulebook text-[#948d8d]'>Rule Book</span>
+            {/* </a> */}
             <a className='' href='https://devfolio.co/code-of-conduct'>
               <span>Code of conduct</span>
             </a>
@@ -219,7 +219,7 @@ const Footer = () => {
       <div className=' flex justify-center align-center pb-[1rem] text-[18px] copyright'>
         <span>Made with &nbsp;</span>
         &#10084;&#65039;
-        <span>&nbsp; by <Link href="https://github.com/AryanP45/GeekVishwa.github.io">  GFG Team
+        <span>&nbsp; by <Link href="/team">  GFG Team
         </Link>.
         </span>
 
