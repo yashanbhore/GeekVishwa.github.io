@@ -11,8 +11,10 @@ const Prize = () => {
         <div className="flex justify-center items-center h-[100%] flex-col pb-[2rem]">
           <span className="text-[20px] font-800">Win Prizes Upto</span>
           <span className="text-[50px] font-black">5000$</span>
-          <div className="prize-logo w-[10rem] mt-[1rem] flex justify-center">
-            <img src="/assets/coin.png" alt="" />
+          <div className="prize-logo w-[20rem] mt-[1rem] mb-[2rem] flex justify-center">
+            <img src="/assets/prizes.png" alt="" />
+            {/* <video src="/assets/prizes.mov"/> */}
+            
           </div>
         </div>
       </div>

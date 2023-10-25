@@ -192,7 +192,8 @@ body {
   position: fixed;
 }
 .prize-logo img{
-  width: 70% !important;
+  /* width: 70% !important; */
+  max-width: 180%;
   
 }
 .copyright {
@@ -255,8 +256,6 @@ body {
 
 
 
-
-
 /* for responsiveness */
 @media only screen and (max-width: 1300px) {
   .sponsor-main-title {
@@ -274,6 +273,11 @@ body {
   .section-card {
     width: 75%;
   }
+  .prize-logo img{
+    /* width: 70% !important; */
+    max-width: 180%;
+    
+  }
 }
 @media only screen and (max-width: 1200px) {
   .nav-link {
@@ -284,6 +288,11 @@ body {
   }
   #canvas{
     height: 50% !important;
+  }
+  .prize-logo img{
+    /* width: 70% !important; */
+    max-width: 120%;
+    
   }
 }
 @media only screen and (max-width: 992px) {
@@ -348,6 +357,11 @@ body {
     height: 43% !important;
     width: 70% !important;
   }
+  .prize-logo img{
+    /* width: 70% !important; */
+    max-width: 100%;
+    
+  }
 }
 @media only screen and (max-width: 800px) {
   .dash {
@@ -394,6 +408,11 @@ body {
   .section-card {
     width: 75%;
   }
+  .prize-logo img{
+    /* width: 70% !important; */
+    max-width: 90%;
+    
+  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -412,6 +431,11 @@ body {
   #canvas{
     height: 40% !important;
     width: 70% !important;
+  }
+  .prize-logo img{
+    /* width: 70% !important; */
+    max-width: 80%;
+    
   }
 }
 @media only screen and (max-width: 650px) {
