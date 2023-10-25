@@ -14,7 +14,6 @@
 }
 html {
   scroll-behavior: smooth;
-  /* overflow: hidden; */
 }
 .main img{
   height: 160px;
@@ -30,7 +29,6 @@ html {
 body {
   height: 100vh;
   width: 100vw;
-  /* background-color: #131313; */
 }
 
 .nav-wrapper {
@@ -49,12 +47,6 @@ body {
   width: 70% !important;
 }
 
-/* #vid{
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-} */
 .content {
   position: absolute;
   width: 100%;
@@ -68,7 +60,7 @@ body {
 }
 .prize-inner {
   background-color: rgba(60, 61, 61, 0.5);
-  gap: 1.5rem;
+  gap: 1rem;
 }
 .footer {
   color: white;
@@ -88,7 +80,6 @@ body {
   );
   -webkit-background-clip: text;
   color: transparent;
-  /* color: white; */
   font-weight: 900 !important;
   font-size: 60px;
 }
@@ -192,11 +183,11 @@ body {
 #Matrix{
   position: fixed;
 }
+
 .prize-logo img{
-  /* width: 70% !important; */
-  width: 180%;
-  
+  max-width: 90%;
 }
+
 .copyright {
   background-color: rgba(29, 28, 28, 0.8);
 }
@@ -258,6 +249,27 @@ body {
 
 
 /* for responsiveness */
+@media only screen and (max-width: 1600px) {
+   /* .prize-logo{
+     width: 70%; 
+    margin-bottom: 4rem; 
+  }  */
+}
+
+@media only screen and (max-width: 1400px) {
+  /* .prize-logo{
+    max-width: 100%;
+    margin-bottom: 4rem; 
+  } */
+}
+
+@media only screen and (max-width: 1400px) {
+  /* .prize-logo{
+    width: 75%;
+    margin-bottom: 4rem; 
+  } */
+}
+
 @media only screen and (max-width: 1300px) {
   .sponsor-main-title {
     font-size: 40px;
@@ -274,9 +286,11 @@ body {
   .section-card {
     width: 75%;
   }
-  /* .prize-logo img{
-    max-width: 170%;
+  /* .prize-logo{
+    width: 500px;
+    margin-bottom: 4rem; 
   } */
+  
 }
 @media only screen and (max-width: 1200px) {
   .nav-link {
@@ -288,11 +302,10 @@ body {
   #canvas{
     height: 50% !important;
   }
-  .prize-logo img{
-    /* width: 70% !important; */
-    max-width: 120%;
-    
-  }
+  /* .prize-logo{
+    width: 60%;
+    margin-bottom: 4rem; 
+  } */
 }
 @media only screen and (max-width: 992px) {
   .hero-image-container {
@@ -356,11 +369,10 @@ body {
     height: 43% !important;
     width: 70% !important;
   }
-  .prize-logo img{
-    /* width: 70% !important; */
+  /* .prize-logo{
     max-width: 100%;
     
-  }
+  } */
 }
 @media only screen and (max-width: 800px) {
   .dash {
@@ -407,11 +419,10 @@ body {
   .section-card {
     width: 75%;
   }
-  .prize-logo img{
-    /* width: 70% !important; */
+  /* .prize-logo{
     max-width: 90%;
     
-  }
+  } */
 }
 
 @media only screen and (max-width: 700px) {
@@ -431,11 +442,10 @@ body {
     height: 40% !important;
     width: 70% !important;
   }
-  .prize-logo img{
-    /* width: 70% !important; */
+  /* .prize-logo{
     max-width: 80%;
     
-  }
+  } */
 }
 @media only screen and (max-width: 650px) {
   .App {
@@ -518,10 +528,10 @@ body {
     width: 280px;
     height: 160px;
   }
-  .prize-logo img{
+  /* .prize-logo{
     max-width: 80%;
     
-  }
+  } */
 }
 
 @media only screen and (max-width: 450px){
@@ -533,4 +543,12 @@ body {
     font-size: 40px;
   }
   
+}
+@media only screen and (max-width: 380px){
+  /* .prize-logo img{
+    max-width: 114%;
+  } */
+  .prize-Title{
+    font-size: 22px;
+  }
 }
