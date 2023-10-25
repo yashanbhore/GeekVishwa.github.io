@@ -273,11 +273,9 @@ body {
   .section-card {
     width: 75%;
   }
-  .prize-logo img{
-    /* width: 70% !important; */
-    max-width: 180%;
-    
-  }
+  /* .prize-logo img{
+    max-width: 170%;
+  } */
 }
 @media only screen and (max-width: 1200px) {
   .nav-link {
@@ -519,4 +517,19 @@ body {
     width: 280px;
     height: 160px;
   }
+  .prize-logo img{
+    max-width: 80%;
+    
+  }
+}
+
+@media only screen and (max-width: 450px){
+  .prize-inner{
+    width: 75%;
+  }
+
+  .dollar{
+    font-size: 40px;
+  }
+  
 }

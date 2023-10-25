@@ -10,10 +10,10 @@ const Prize = () => {
         </div>
         <div className="flex justify-center items-center h-[100%] flex-col pb-[2rem]">
           <span className="text-[20px] font-800">Win Prizes Upto</span>
-          <span className="text-[50px] font-black">5000$</span>
+          <span className="text-[50px] font-black dollar">5000$</span>
           <div className="prize-logo w-[20rem] mt-[1rem] mb-[2rem] flex justify-center">
             <img src="/assets/prizes.png" alt="" />
-            {/* <video src="/assets/prizes.mov"/> */}
+            {/* <video src="/assets/prize.mp4"/> */}
             
           </div>
         </div>
