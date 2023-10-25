@@ -68,6 +68,7 @@ body {
 }
 .prize-inner {
   background-color: rgba(60, 61, 61, 0.5);
+  gap: 0.7rem;
 }
 .footer {
   color: white;
@@ -193,7 +194,7 @@ body {
 }
 .prize-logo img{
   /* width: 70% !important; */
-  max-width: 180%;
+  width: 180%;
   
 }
 .copyright {
