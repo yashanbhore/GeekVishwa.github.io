@@ -193,7 +193,7 @@ export default [
             {
                 img: "https://res.cloudinary.com/dngvge2sb/image/upload/v1698168409/GFG%20TEAM/huo0hq9wsf9zzxx6jbtf.jpg",
                 title: "Rayyan Burondkar ",
-                pos: "PAssociate Head",
+                pos: "Associate Head",
 		instaLink:"https://instagram.com/aka.reven?igshid=OGQ5ZDc2ODk2ZA==",
                 linkedinLink:"https://in.linkedin.com/in/rayyan-burondkar-02274825b",
             },
