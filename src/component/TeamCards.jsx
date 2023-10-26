@@ -136,7 +136,7 @@ const TeamCards = () => {
 
             <div className="main-th  w-[300px] h-[300px] mt-[3rem] pl-[0px] mt-[1rem] bg-white flex justify-center items-center border border-gray-200 pt-[1rem] rounded-[20px] shadow dark:bg-gray-800 dark:border-gray-700">
               <div className="pw flex flex-col items-center pb-10">
-                <img className="pic w-40 h-40 mb-3 rounded-full shadow-lg" src="https://res.cloudinary.com/dngvge2sb/image/upload/v1698168401/GFG%20TEAM/y7rrzywwlk1iwiwc3uy1.jpg" alt="Bhagrashree" />
+                <img className="pic w-40 h-40 mb-3 rounded-full shadow-lg" src="https://res.cloudinary.com/ddtwrelap/image/upload/v1698319401/gfg-team/dq9ws9anmbltpbqedvbx.jpg" alt="Bhagrashree" />
                 <h5 className="title mb-1 text-xl font-large text-gray-900 dark:text-white">Bhagyashree Tekade</h5>
                 <span className="pos text-sm text-gray-500 dark:text-gray-400">Design Head</span>
                 <div className="s-handles flex mt-4 space-x-3 md:mt-6">
@@ -207,7 +207,7 @@ const TeamCards = () => {
             
             <div className="main-th  w-[300px] h-[300px] mt-[3rem] pl-[0px] mt-[1rem] bg-white flex justify-center items-center border border-gray-200 pt-[1rem] rounded-[20px] shadow dark:bg-gray-800 dark:border-gray-700">
               <div className="pw flex flex-col items-center pb-10">
-                <img className="pic w-40 h-40 mb-3 rounded-full shadow-lg" src="https://res.cloudinary.com/dngvge2sb/image/upload/v1698168419/GFG%20TEAM/jgpuikx83gp1pi9sbaau.jpg" alt="varad" />
+                <img className="pic w-40 h-40 mb-3 rounded-full shadow-lg" src="https://res.cloudinary.com/ddtwrelap/image/upload/v1698319400/gfg-team/ak3cl3usjb3mt29u1smv.jpg" alt="varad" />
                 <h5 className="title mb-1 text-xl font-large text-gray-900 dark:text-white">Varad Patil</h5>
                 <span className="pos text-sm text-gray-500 dark:text-gray-400">Event Head</span>
                 <div className="s-handles flex mt-4 space-x-3 md:mt-6">

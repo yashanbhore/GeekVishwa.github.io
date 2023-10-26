@@ -125,7 +125,7 @@ export default [
 
         doc: [
             {
-                img: "https://res.cloudinary.com/dngvge2sb/image/upload/v1698168403/GFG%20TEAM/jbqdzdeb7mbms55lbyf9.jpg",
+                img: "https://res.cloudinary.com/ddtwrelap/image/upload/v1698319401/gfg-team/ntzliue5x8f5yhw4rhn5.jpg",
                 title: "Yashraj Damji",
                 pos: "Documentation Head",
 		instaLink:"https://instagram.com/yashraj_damji?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==",
@@ -156,7 +156,7 @@ export default [
                 linkedinLink:"https://www.linkedin.com/in/yash-sarolkar-60284b25b",
             },
             {
-                img: "https://res.cloudinary.com/dngvge2sb/image/upload/v1698168415/GFG%20TEAM/pzln74bb8z2ulvvls5qx.jpg",
+                img: "https://res.cloudinary.com/ddtwrelap/image/upload/v1698319402/gfg-team/vgjuuuhx9aoe3wgf6jpn.jpg",
                 title: "Harshal Patil",
                 pos: "Associate Head",
 		instaLink:"https://instagram.com/_hhaarrsshhaall?igshid=YTQwZjQ0NmI0OA==",
