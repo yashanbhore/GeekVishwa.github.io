@@ -26,7 +26,7 @@ const Nav = () => {
                 <Link href="/#event-section"className='mx-[3rem] nav-link'>Events</Link>
                 <Link href="/team"className='mx-[3rem] nav-link'>Team</Link>
                 <Link href="/#sponsors"className='mx-[3rem] nav-link'>Sponsors</Link>
-                <Link href="#footer"className='mx-[3rem] nav-link'>Contact Us</Link>
+                <Link href="#footer"className='mx-[3rem] nav-link'>Contact</Link>
             </div>
             <div className='flex justify-center items-center text-white menu-icon hidden' onClick={handleClick} >
             <TfiMenuAlt/>
