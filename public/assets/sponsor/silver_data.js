@@ -1,6 +1,6 @@
 export default [
     {
-        img: "/assets/replit.png",
+        img: "/assets/sponsor/silver/replit.png",
         alt: "REPLIT LOGO"
     }
 ]

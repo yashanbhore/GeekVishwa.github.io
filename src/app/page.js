@@ -4,8 +4,9 @@ import Hero from '@/component/Hero'
 import AboutGFG from '@/component/AboutGFG'
 import Footer from '@/component/Footer'
 import Sponsors from '@/component/Sponsors'
-import golddata from '../../public/assets/gold_data'
-import silverdata from '../../public/assets/silver_data'
+import golddata from '../../public/assets/sponsor/gold_data'
+import silverdata from '../../public/assets/sponsor/silver_data'
+import otherdata from '../../public/assets/sponsor/other_data'
 import Banner from '@/component/Banner'
 import TimeLine from '@/component/TimeLine'
 import Prize from '@/component/Prize'
@@ -34,6 +35,7 @@ export default function Home() {
       </div>
       <Sponsors type="Gold Sponsors" data={golddata}/>
       <Sponsors type="Silver Sponsors" data={silverdata}/>
+      <Sponsors type="Other Sponsors" data={otherdata}/>
       <Footer/>
 
     </div>

@@ -1,10 +1,10 @@
 export default [
     {
-        img: "/assets/polygon.png",
+        img: "/assets/sponsor/gold/polygon.png",
         alt: "PLOYGON LOGO"
     },
     {
-        img: "/assets/devfolio.png",
+        img: "/assets/sponsor/gold/devfolio.png",
         alt: "DEVFOLIO LOGO"
     }
 ]
