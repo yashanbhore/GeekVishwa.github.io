@@ -43,6 +43,9 @@
 .main{
     transition-duration:1s ;
     transition-property: all;
+    /* box-shadow: 0px 0px 0px rgb(44, 214, 22); */
+  -webkit-transition:  box-shadow .2s ease-out;
+     /* box-shadow: .8px .9px 3px rgb(44, 223, 8); */
 
 }
 .main img{
@@ -54,6 +57,9 @@
 .main:hover{
     background-color: rgb(211, 255, 167);
     border-radius: 3rem;
+    box-shadow: 0px 0px 40px rgb(24, 211, 21);
+     -webkit-transition:  box-shadow .6s ease-in;
+
 
 }
 .main-th{
@@ -62,10 +68,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    -webkit-transition:  box-shadow .2s ease-out;
 }
 .main-th:hover{
     background-color: rgb(211, 255, 167);
     border-radius: 3rem;
+    box-shadow: 0px 0px 40px rgb(24, 211, 21);
+    -webkit-transition:  box-shadow .6s ease-in;
 }
 
 .main-th:hover .pw{

@@ -33,6 +33,7 @@ const TeamCards = () => {
           slidesPerView: 1,
         },
       }}
+      style={{paddingBottom:"30px"}}
         pagination={true}
         modules={[Pagination, Autoplay]}
         autoplay={true}
@@ -99,6 +100,7 @@ const TeamCards = () => {
           slidesPerView: 1,
         },
       }}
+      style={{paddingBottom:"30px"}}
         pagination={true}
         modules={[Pagination, Autoplay]}
         autoplay={true}
@@ -168,6 +170,7 @@ const TeamCards = () => {
           slidesPerView: 1,
         },
       }}
+      style={{paddingBottom:"30px"}}
         pagination={true}
         modules={[Pagination, Autoplay]}
         autoplay={true}
@@ -239,6 +242,7 @@ const TeamCards = () => {
           slidesPerView: 1,
         },
       }}
+      style={{paddingBottom:"30px"}}
         pagination={true}
         modules={[Pagination, Autoplay]}
         autoplay={true}
@@ -311,6 +315,7 @@ const TeamCards = () => {
 
         },
       }}
+      style={{paddingBottom:"30px"}}
         pagination={true}
         modules={[Pagination, Autoplay]}
         autoplay={true}
@@ -356,6 +361,7 @@ const TeamCards = () => {
           slidesPerView: 1,
         },
       }}
+      style={{paddingBottom:"30px"}}
         pagination={true}
         modules={[Pagination, Autoplay]}
         autoplay={true}
@@ -406,6 +412,7 @@ const TeamCards = () => {
           slidesPerView: 1,
         },
       }}
+      style={{paddingBottom:"30px"}}
         pagination={true}
         modules={[Pagination, Autoplay]}
         autoplay={true}
@@ -456,6 +463,7 @@ const TeamCards = () => {
           slidesPerView: 1,
         },
       }}
+      style={{paddingBottom:"30px"}}
         pagination={true}
         modules={[Pagination, Autoplay]}
         autoplay={true}
@@ -506,6 +514,7 @@ const TeamCards = () => {
           slidesPerView: 1,
         },
       }}
+      style={{paddingBottom:"30px"}}
         pagination={true}
         modules={[Pagination, Autoplay]}
         autoplay={true}

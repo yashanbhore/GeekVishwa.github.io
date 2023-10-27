@@ -1,9 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* scrollbar properties */
 ::-webkit-scrollbar {
-  display: none;
+  width: 12px;
+  
 }
+
+::-webkit-scrollbar-thumb {
+  /* background: linear-gradient(transparent,#30ff00); */
+  background: linear-gradient(
+    43deg,
+    #000000 0%,
+    #14d450 33%,
+    #0ca63a 66%,
+    #000000 100%
+  );
+  border-radius: 6px;
+  height: 300px;
+}
+
+/* ***************************************************** */
+
 * {
   box-sizing: border-box;
 }
@@ -28,7 +47,6 @@ html {
 
 body {
   height: 100vh;
-  width: 100vw;
 }
 
 .nav-wrapper {
@@ -70,6 +88,8 @@ body {
   height: 100% !important;
 }
 
+
+
 .gfg-gradient {
   background-image: linear-gradient(
     43deg,
@@ -87,7 +107,45 @@ body {
 .card {
   background-color: rgba(255, 255, 255, 1);
   z-index: 3;
+  box-shadow: 0px 0px 0px rgb(44, 214, 22);
+  -webkit-transition:  box-shadow .2s ease-out;
+     box-shadow: .8px .9px 3px rgb(44, 223, 8);
 }
+.card:hover{ 
+  box-shadow: 0px 0px 40px rgb(24, 211, 21);
+ -webkit-transition:  box-shadow .6s ease-in;
+}
+
+.about-gfg{
+  box-shadow: 0px 0px 0px rgb(44, 214, 22);
+  -webkit-transition:  box-shadow .2s ease-out;
+     box-shadow: .8px .9px 3px rgb(44, 223, 8);
+}
+.about-gfg:hover{
+  box-shadow: 0px 0px 40px rgb(24, 211, 21);
+     -webkit-transition:  box-shadow .6s ease-in;
+}
+
+.prize-inner{
+  box-shadow: 0px 0px 0px rgb(44, 214, 22);
+  -webkit-transition:  box-shadow .2s ease-out;
+     box-shadow: .8px .9px 3px rgb(44, 223, 8);
+}
+.prize-inner:hover{
+  box-shadow: 0px 0px 40px rgb(24, 211, 21);
+  -webkit-transition:  box-shadow .6s ease-in;
+}
+.nav-link{
+  text-decoration: none;
+}
+.nav-link:hover{
+  text-decoration: underline;
+  text-decoration-color: rgb(28, 193, 28);
+  text-underline-offset: 10px;
+  transition: .3s ease-in;
+}
+
+
 .section-card {
   z-index: 3;
 }
@@ -246,8 +304,16 @@ body {
 
 
 
+.footer-link:hover{
+  color: #F1C93B;
+}
 
-
+.footer-insta:hover{
+  color: #d62ba8;
+}
+.footer-linkedin:hover{
+  color: #396bd0;
+}
 /* for responsiveness */
 @media only screen and (max-width: 1600px) {
    /* .prize-logo{
