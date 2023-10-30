@@ -22,7 +22,7 @@ const Hero = () => {
             </div>
 
             <div className='flex flex-col items-center'>
-                <div className="App flex mb-[2rem] text-[34px] font-black">
+                {/* <div className="App flex mb-[2rem] text-[34px] font-black">
                     <Typewriter
 
                         options={{
@@ -39,7 +39,7 @@ const Hero = () => {
                                 .start()
                         }}
                     />
-                </div>
+                </div> */}
                 <div className='mb-[3rem] flex-center justify-center '>
                     <span className='text-[60px] text-6xl font-black  register'>Register Now !!!</span>
                 </div>
