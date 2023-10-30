@@ -22,6 +22,7 @@ const Hero = () => {
             </div>
 
             <div className='flex flex-col items-center'>
+                {/* Removed for lagging on mobile devices */}
                 {/* <div className="App flex mb-[2rem] text-[34px] font-black">
                     <Typewriter
 

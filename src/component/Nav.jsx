@@ -3,8 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 import {TfiMenuAlt} from "react-icons/tfi"
 import { useState } from 'react'
-const Nav = () => {
-    const [toggle, settoggle] = useState(false)
+const Nav = ({toggle,settoggle}) => {
     const handleClick  =()=>{
         if(!toggle){
             document.getElementById("side-nav").style.left="0%"
