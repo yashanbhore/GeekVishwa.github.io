@@ -322,18 +322,14 @@ body {
   }  */
 }
 
-@media only screen and (max-width: 1400px) {
-  /* .prize-logo{
-    max-width: 100%;
-    margin-bottom: 4rem; 
-  } */
-}
-
-@media only screen and (max-width: 1400px) {
-  /* .prize-logo{
-    width: 75%;
-    margin-bottom: 4rem; 
-  } */
+@media only screen and (max-width: 1450px) {
+  .sponsor-card {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    margin: 2rem 0;
+  }
 }
 
 @media only screen and (max-width: 1300px) {
