@@ -27,6 +27,8 @@ const Footer = () => {
     }, 500)
      
     if (pathname == "/") {
+
+      // for background animation*********************************************************************************
       let canvas, width, height, ctx;
       let fireworks = [];
       let particles = [];
