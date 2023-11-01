@@ -35,7 +35,7 @@ export default [
                 desc : "Transforming education using technology and innovation"
             },
             {
-                img: "/assets/domains/cybersecurity.png ",
+                img: "/assets/domains/cybersecurity.png",
                 title: "Cybersecurity",
                 desc : "Protecting digital assets from threats and vulnerabilities"
             },
