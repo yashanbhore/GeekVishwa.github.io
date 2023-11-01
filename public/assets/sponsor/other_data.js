@@ -1,5 +1,10 @@
 export default [
     {
+        img: "/assets/sponsor/other/atencion.png",
+        alt: "ATENCION LOGO",
+        link: ""
+    },
+    {
         img: "/assets/sponsor/other/rosenfeld.png",
         alt: "ROSENFELD LOGO",
         link: "https://rosenfeldmedia.com/"
@@ -14,10 +19,6 @@ export default [
         alt: "OREILLY LOGO",
         link: "https://www.oreilly.com/"
     },
-    {
-        img: "/assets/sponsor/other/atencion.png",
-        alt: "ATENCION LOGO",
-        link: ""
-    },
+
     
 ]
