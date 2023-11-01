@@ -190,9 +190,9 @@ const Footer = () => {
           <span className='underline decoration-[#104a20] decoration-[0.4rem] text-[30px] underline-offset-8 footer-title'>Documents</span>
           <div className='flex flex-col mt-[1rem] text-[20px] footer-item'>
 
-            {/* <a href=''> */}
-              <span className='rulebook text-[#948d8d] footer-link'>Rule Book</span>
-            {/* </a> */}
+            <a href='/assets/rules.pdf'>
+              <span className='footer-link'>Rule Book</span>
+            </a>
             <a className='' href='https://devfolio.co/code-of-conduct'>
               <span className='footer-link'>Code of conduct</span>
             </a>
