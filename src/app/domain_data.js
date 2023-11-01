@@ -41,7 +41,7 @@ export default [
             },
             {
                 img: "/assets/domains/environmental.png",
-                title: "Environment & Sustainability",
+                title: "GreenTech",
                 desc : "Addressing environmental challenges with tech-driven solutions"
             },
 
