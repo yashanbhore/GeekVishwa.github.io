@@ -64,7 +64,9 @@ body {
   z-index: 1;
   width: 70% !important;
 }
-
+.swiper-wrapper{
+  padding-top: 2rem;
+}
 .content {
   position: absolute;
   width: 100%;
