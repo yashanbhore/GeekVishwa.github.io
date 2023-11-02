@@ -684,18 +684,21 @@ body {
     font-weight: 900;
   }
   .note-body{
-    font-size: 30px;
+    font-size: 15px;
   }
   .note-title{
-    font-size: 20px;
+    font-size: 15px;
   }
   
 }
 @media only screen and (max-width: 380px){
-  /* .prize-logo img{
-    max-width: 114%;
-  } */
   .prize-Title{
     font-size: 22px;
+  }
+  .note-body{
+    font-size: 15px;
+  }
+  .note-title{
+    font-size: 15px;
   }
 }
