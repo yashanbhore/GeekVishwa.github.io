@@ -12,6 +12,7 @@ import TimeLine from '@/component/TimeLine'
 import Prize from '@/component/Prize'
 import AboutGeekVishwa from '@/component/AboutGeekVishwa'
 import Domains from '@/component/Domains'
+import Notice from '@/component/Notice'
 
 
 export default function Home() {
@@ -37,6 +38,7 @@ export default function Home() {
       <Banner/>
       <Prize/>
       <TimeLine/>
+      <Notice/>
       <Domains/>
       <div id='sponsors' className='flex justify-center align-center gfg-gradient text-[50px] mb-[3rem] sponsor-main-title font-black'>
         <span>Organizations who </span><span> &nbsp;helped us in our Lift Off</span>
