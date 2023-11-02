@@ -12,7 +12,7 @@ const Notice = () => {
         <Stack sx={{ width: '100%' }} spacing={2} className='flex justify-center items-center' >
       <Alert variant="outlined" severity="info" className='note-body'  >
         <AlertTitle className='note-title'>Note:</AlertTitle>
-        Individial registrations won't be considered !
+        Individual registration won't be considered !
       </Alert>
     </Stack>
     </div>
