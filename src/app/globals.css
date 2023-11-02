@@ -252,6 +252,14 @@ body {
   background-color: rgba(29, 28, 28, 0.8);
 }
 
+.note-body{
+  font-size: 30px;
+  color: red;
+}
+.note-title{
+  font-size: 20px;
+}
+
 /* FIRE WORKS */
 
 #fire-works {
@@ -567,10 +575,12 @@ body {
     height: 40% !important;
     width: 70% !important;
   }
-  /* .prize-logo{
-    max-width: 80%;
-    
-  } */
+  .note-body{
+    font-size: 20px;
+  }
+  .note-title{
+    font-size: 15px;
+  }
 }
 @media only screen and (max-width: 650px) {
   .App {
@@ -653,10 +663,12 @@ body {
     width: 280px;
     height: 160px;
   }
-  /* .prize-logo{
-    max-width: 80%;
-    
-  } */
+  .note-body{
+    font-size: 20px;
+  }
+  .note-title{
+    font-size: 15px;
+  }
 }
 
 @media only screen and (max-width: 450px){
@@ -670,6 +682,12 @@ body {
   .footer-title {
     font-size: 20px;
     font-weight: 900;
+  }
+  .note-body{
+    font-size: 30px;
+  }
+  .note-title{
+    font-size: 20px;
   }
   
 }
