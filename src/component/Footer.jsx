@@ -184,7 +184,7 @@ const Footer = () => {
 
       <div className='h-[300px] flex items-center text-white justify-around footer-inner'>
         <div className='h-[80%] footer-logo'>
-          <img src="../assets/gfg_viit_logo.png" alt='event_logo' className='footer-logo'></img>
+          <img src="../assets/gfg_viit.svg" alt='event_logo' className='footer-logo'></img>
         </div>
         <div className='flex flex-col footer-block'>
           <span className='underline decoration-[#104a20] decoration-[0.4rem] text-[30px] underline-offset-8 footer-title'>Documents</span>
