@@ -18,7 +18,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className=''>
       <body className={poppins.className}>
-        <NextTopLoader />
+        <NextTopLoader
+         color='#23ff00'
+         showSpinner = {false}
+         />
         <canvas id='Matrix'></canvas>
         <Wrapper>
         {children}
