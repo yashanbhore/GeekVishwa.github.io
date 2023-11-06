@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://www.gfgviit.tech/assets/gfg_logo_small.png">
+  <img src="https://www.gfgviit.tech/assets/gfg_viit_logo.png">
 </p>
 
 
