@@ -3,6 +3,8 @@ import './globals.css'
 import Nav from '@/component/Nav'
 import SideNav from '@/component/SideNav'
 import Wrapper from '@/component/Wrapper'
+import NextTopLoader from 'nextjs-toploader';
+
 
 const poppins = Poppins({ subsets: ['latin'], weight: '300' })
 
@@ -16,6 +18,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className=''>
       <body className={poppins.className}>
+        <NextTopLoader />
         <canvas id='Matrix'></canvas>
         <Wrapper>
         {children}
