@@ -220,11 +220,15 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className=' flex justify-center align-center pb-[1rem] text-[18px] copyright'>
+      <div className=' flex justify-center align-center pb-[0.5rem] text-[18px] copyright tracking-wider'>
         <span>Made with &nbsp;</span>
-        &#10084;&#65039;
-        <span>&nbsp; by <Link href="/team">  GFG Team
-        </Link>.
+        &#10084;&#65039; by &nbsp;
+        <span className='text-green-400 hover:text-red-400 underline underline-offset-4 '><Link href="https://github.com/AryanP45" target="_blank">  Aryan Patil
+        </Link>
+        </span>
+      </div>
+      <div className='flex justify-center align-center pb-[0.5rem] text-[14px] copyright'>
+      <span className='text-[#fff] font-medium tracking-widest'>&nbsp; © Copyright <strong>GFG VIIT</strong>. All Rights Reserved
         </span>
 
       </div>
