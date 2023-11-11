@@ -8,5 +8,10 @@ export default [
         img: "/assets/sponsor/gold/devfolio.png",
         alt: "DEVFOLIO LOGO",
         link: "https://devfolio.co/"
+    },
+    {
+        img: "/assets/sponsor/gold/Qoneqt.jpg",
+        alt: "QONEQT LOGO",
+        link: "https://qoneqt.com/"
     }
 ]
