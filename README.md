@@ -27,8 +27,10 @@
 - [@AryanPatil](https://www.github.com/AryanP45)
 - [@AdinathShelke](https://www.github.com/adi-shelke)
 - [@YashAnbore](https://github.com/yashanbhore)
-<!-- <a href="https://github.com/AryanP45/GeekVishwa.github.io/graphs/contributors"><img src="https://github.com/AryanP45/GeekVishwa.github.io/graphs/contributors" /></a> -->
 
+<a href="https://github.com/AryanP45/GeekVishwa/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=AryanP45/GeekVishwa" />
+  </a>
 
 
 ## 🏆 License
