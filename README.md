@@ -9,7 +9,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/AryanP45/GeekVishwa.github.io?style=social)
 ![GitHub Repo stars](https://img.shields.io/github/stars/AryanP45/GeekVishwa.github.io?style=social)
 ![GitHub watchers](https://img.shields.io/github/watchers/AryanP45/GeekVishwa.github.io?style=social)
-![APM](https://img.shields.io/apm/l/vim-mode?style=social)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)    
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/AryanP45/GeekVishwa.github.io)
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/Aryanp45/GeekVishwa.github.io?label=Pull%20Requests)
 ![GitHub issues](https://img.shields.io/github/issues/Aryanp45/GeekVishwa.github.io?label=Issues)
