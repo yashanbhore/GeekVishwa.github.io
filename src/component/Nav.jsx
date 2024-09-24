@@ -3,8 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 import {TfiMenuAlt} from "react-icons/tfi"
 import { useState } from 'react'
-const Nav = () => {
-    const [toggle, settoggle] = useState(false)
+const Nav = ({toggle,settoggle}) => {
     const handleClick  =()=>{
         if(!toggle){
             document.getElementById("side-nav").style.left="0%"
@@ -18,7 +17,7 @@ const Nav = () => {
     return (
         <div id='home' className=' nav-wrapper '>
             <div className='sticky top-0 h-full'>
-                <img src="../assets/glow_logo.png" alt="logo" width="70px" className='h-[80%] pt-[8px] mx-[2rem] nav-logo' />
+                <img src="../assets/nav_logo.svg" alt="logo" width="90px" className='h-[100%] pt-[8px] mx-[2rem] nav-logo' />
             </div>
         <div  className=' items-center nav-wrapper bg-[*]  flex justify-center  '>
             <div className='lg:text-[20px] text-white md:text-[16px]'>

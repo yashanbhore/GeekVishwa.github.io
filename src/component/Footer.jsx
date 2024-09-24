@@ -27,6 +27,8 @@ const Footer = () => {
     }, 500)
      
     if (pathname == "/") {
+
+      // for background animation*********************************************************************************
       let canvas, width, height, ctx;
       let fireworks = [];
       let particles = [];
@@ -182,17 +184,17 @@ const Footer = () => {
 
       <div className='h-[300px] flex items-center text-white justify-around footer-inner'>
         <div className='h-[80%] footer-logo'>
-          <img src="../assets/gfg_logo_small.png" alt='event_logo' className='footer-logo'></img>
+          <img src="../assets/gfg_viit.svg" alt='event_logo' className='footer-logo'></img>
         </div>
         <div className='flex flex-col footer-block'>
           <span className='underline decoration-[#104a20] decoration-[0.4rem] text-[30px] underline-offset-8 footer-title'>Documents</span>
           <div className='flex flex-col mt-[1rem] text-[20px] footer-item'>
 
-            <a href='https://hackthespace.co/images/footer/Code%20of%20Conduct%20-%20HTS.pdf'>
-              <span>Rule Book</span>
+            <a href='/assets/rules.pdf'>
+              <span className='footer-link'>Rule Book</span>
             </a>
             <a className='' href='https://devfolio.co/code-of-conduct'>
-              <span>Code of conduct</span>
+              <span className='footer-link'>Code of conduct</span>
             </a>
           </div>
 
@@ -200,10 +202,10 @@ const Footer = () => {
         <div className='flex flex-col footer-block'>
           <span className='underline decoration-[#104a20] decoration-[0.4rem] text-[30px] underline-offset-8 footer-title'>Social Handles</span>
           <div className='flex items-center mt-[1rem] footer-item'>
-            <Link href="https://www.instagram.com/gfg_viit/" className='px-[0.5rem] text-[40px] footer-social-icons'>
+            <Link href="https://www.instagram.com/gfg_viit/" className='px-[0.5rem] text-[40px] footer-social-icons footer-insta'>
               <BsInstagram />
             </Link>
-            <Link href="https://www.linkedin.com/company/geeksforgeeks-viit-student-chapter/" className='px-[0.5rem] text-[40px]'>
+            <Link href="https://www.linkedin.com/company/geeksforgeeks-viit-student-chapter/" className='px-[0.5rem] text-[40px] footer-linkedin'>
               <AiFillLinkedin />
             </Link>
 
@@ -211,16 +213,22 @@ const Footer = () => {
         </div>
         <div className='flex flex-col items-center footer-block'>
           <span className='underline decoration-[#104a20] decoration-[0.4rem] text-[30px] underline-offset-8 footer-title '>Contact Us</span>
-          <a href="mailto:gfg@viit.ac.in" className='mt-[1rem] text-[20px] footer-item'>gfg@viit.ac.in</a>
+          <span  className='mt-[1rem] footer-link'>
+          <a href="mailto:gfg@viit.ac.in" className=' text-[20px] footer-item'>gfg@viit.ac.in</a>
+          </span>
 
         </div>
       </div>
 
-      <div className=' flex justify-center align-center pb-[1rem] text-[18px] copyright'>
+      <div className=' flex justify-center align-center pb-[0.5rem] text-[18px] copyright tracking-wider'>
         <span>Made with &nbsp;</span>
-        &#10084;&#65039;
-        <span>&nbsp; by <Link href="https://github.com/AryanP45/GeekVishwa.github.io">  GFG Team
-        </Link>.
+        &#10084;&#65039; by &nbsp;
+        <span className='text-green-400 hover:text-red-400 underline underline-offset-4 '><Link href="https://github.com/AryanP45" target="_blank">  Aryan Patil
+        </Link>
+        </span>
+      </div>
+      <div className='flex justify-center align-center pb-[0.5rem] text-[14px] copyright'>
+      <span className='text-[#fff] font-medium tracking-widest'>&nbsp; © Copyright <strong>GFG VIIT</strong>. All Rights Reserved
         </span>
 
       </div>
